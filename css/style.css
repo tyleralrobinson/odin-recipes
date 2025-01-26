@@ -1,0 +1,48 @@
+body {
+  justify-content: space-evenly;
+  background-color: #be8f3c;
+}
+
+button {
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Norse";
+  text-align: center;
+  background-color: orange;
+  margin: auto 45vw;
+}
+
+.title.recipes {
+  font-family: "Norse";
+  text-align: center;
+  background-color: orange;
+  margin: auto 45vw;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.description {
+  background-color: orange;
+}
+
+.steps {
+  background-color: lightgoldenrodyellow;
+}
+
+@font-face {
+  font-family: Norse;
+  src: url(../fonts/Norsebold.otf);
+}
