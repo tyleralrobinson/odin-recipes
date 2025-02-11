@@ -2,7 +2,7 @@ body {
   justify-content: space-evenly;
   background-color: #be8f3c;
   background-color: #be8f3c;
-  opacity: 0.8;
+  opacity: 1;
   background-image: url(../img/food.svg);
   background-size: 200px 200px;
 }
