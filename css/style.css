@@ -1,6 +1,10 @@
 body {
   justify-content: space-evenly;
   background-color: #be8f3c;
+  background-color: #be8f3c;
+  opacity: 0.8;
+  background-image: url(../img/food.svg);
+  background-size: 200px 200px;
 }
 
 button {
@@ -12,6 +16,8 @@ img {
   width: 200px;
   display: flex;
   justify-content: center;
+  border-radius: 5px;
+  border: 2px solid #613d00;
 }
 
 .title {
@@ -19,6 +25,8 @@ img {
   text-align: center;
   background-color: orange;
   margin: auto 45vw;
+  border-radius: 5px;
+  border: 2px solid #613d00;
 }
 
 .title.recipes {
@@ -26,6 +34,8 @@ img {
   text-align: center;
   background-color: orange;
   margin: auto 45vw;
+  border-radius: 5px;
+  border: 2px solid #613d00;
 }
 
 section {
@@ -34,12 +44,30 @@ section {
   margin: 10px auto;
 }
 
+.section.box {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.section.steps {
+  background-color: lightgoldenrodyellow;
+}
+
 .description {
   background-color: orange;
+  display: block;
+  margin: auto 45vw;
+  border-radius: 5px;
+  border: 2px solid #613d00;
 }
 
 .steps {
   background-color: lightgoldenrodyellow;
+  display: block;
+  border-radius: 5px;
+  border: 2px solid #613d00;
 }
 
 @font-face {
